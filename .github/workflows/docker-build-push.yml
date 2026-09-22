@@ -1,4 +1,3 @@
-docker exec -it machhmarwa-postgres psql -U postgres -d machhmarwa_db
 name: Build and Push Docker Images
 
 on:
