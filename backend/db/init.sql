@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS problems (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    mobile VARCHAR(10) NOT NULL,
+    category VARCHAR(100) NOT NULL,
+    description TEXT NOT NULL,
+    location VARCHAR(255),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
